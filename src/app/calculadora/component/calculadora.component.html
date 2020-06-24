@@ -1,0 +1,29 @@
+
+
+<input type="text" class="campo" value={{campoValor}} disabled>
+<table>
+    <tr>
+        <td> <button type="button" class="botao" (click)="allclear()">AC</button> </td>
+        <td> <button type="button" class="botao" (click)="handleIgual()">=</button> </td>
+        <td> <button type="button" class="botao" (click)="setOp('/')">/</button> </td>
+        <td> <button type="button" class="botao" (click)="setOp('*')">*</button> </td>
+    </tr>
+    <tr>
+        <td> <button type="button" class="botao" (click)="setValor(1)">1</button> </td>
+        <td> <button type="button" class="botao" (click)="setValor(2)">2</button> </td>
+        <td> <button type="button" class="botao" (click)="setValor(3)">3</button> </td>
+        <td> <button type="button" class="botao" (click)="setOp('+')">+</button> </td>
+    </tr>
+    <tr>
+        <td> <button type="button" class="botao" (click)="setValor(4)">4</button> </td>
+        <td> <button type="button" class="botao" (click)="setValor(5)">5</button> </td>
+        <td> <button type="button" class="botao" (click)="setValor(6)">6</button> </td>
+        <td> <button type="button" class="botao" (click)="setOp('-')">-</button> </td>
+    </tr>
+    <tr>
+        <td> <button type="button" class="botao" (click)="setValor(7)">7</button> </td>
+        <td> <button type="button" class="botao" (click)="setValor(8)">8</button> </td>
+        <td> <button type="button" class="botao" (click)="setValor(9)">9</button> </td>
+        <td> <button type="button" class="botao" (click)="setValor(0)">0</button> </td>
+    </tr>
+</table>
